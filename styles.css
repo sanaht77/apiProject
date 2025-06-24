@@ -6,7 +6,7 @@ body {
 
 h1 {
     font-family: "Pixelify Sans";
-    margin-bottom: 30px;
+    margin-bottom: 10px;
     font-size: 2.5rem;
 }
 
@@ -14,9 +14,8 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 30px;
+  gap: 5px;
   flex-wrap: wrap;
-  margin-bottom: 20px;
 }
 
 .box {
@@ -29,17 +28,17 @@ h1 {
   width: 100%;
   height: auto;
   max-width: 250px;
-  border-radius: 10px;
+  image-rendering: pixelated;
 }
 
 .box button {
   padding: 6% 14%;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   font-family: "Pixelify Sans";
   background-color: #c999e1;
   color: white;
-  border: none;
-  border-radius: 10px;
+  border: 3px solid #8f3ba0;
+  border-radius: 40px;
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
