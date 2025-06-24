@@ -1,0 +1,49 @@
+body {
+    text-align: center;
+    background: #f5cfe1;
+    padding: 20px;
+}
+
+h1 {
+    font-family: "Pixelify Sans";
+    margin-bottom: 30px;
+    font-size: 2.5rem;
+}
+
+#home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.box {
+  flex: 1 1 auto;
+  max-width: 300px;
+  text-align: center;
+}
+
+.box img {
+  width: 100%;
+  height: auto;
+  max-width: 250px;
+  border-radius: 10px;
+}
+
+.box button {
+  padding: 6% 14%;
+  font-size: 1.5rem;
+  font-family: "Pixelify Sans";
+  background-color: #c999e1;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.box button:hover {
+  background-color: #dd7c9d;
+}
